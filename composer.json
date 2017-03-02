@@ -1,0 +1,35 @@
+{
+    "name": "eventix/omnipay-backoffice",
+    "type": "library",
+    "description": "Backoffice driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "paynl",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://www.eventix.nl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris de Jong",
+            "email": "chris@eventix.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Backoffice\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.2"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
